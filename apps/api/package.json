@@ -1,8 +1,0 @@
-{
-  "name": "easybill-api",
-  "private": true,
-  "version": "1.0.0",
-  "engines": { "node": ">=20" },
-  "scripts": { "migrate": "node --env-file=.env migrate.js", "test": "node test-smoke.js" },
-  "dependencies": { "@libsql/client": "^0.14.0" }
-}
