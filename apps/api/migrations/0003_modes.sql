@@ -1,1 +1,0 @@
-ALTER TABLE accounts ADD COLUMN modes TEXT NOT NULL DEFAULT 'rw';
