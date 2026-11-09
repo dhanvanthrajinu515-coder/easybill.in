@@ -1,0 +1,16 @@
+{
+  "name": "easybill-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "migrate": "node --env-file=.env apps/api/migrate.js",
+    "test": "node apps/api/test-smoke.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0"
+  }
+}
